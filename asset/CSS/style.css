@@ -1,0 +1,190 @@
+body {
+    width: 96%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    position: relative;
+    background-color: beige;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 15px 0 20px 0;
+    justify-content: space-between;
+    height: 180px;
+    margin-top: 20px;
+   
+}
+
+.name {
+    background-color: brown;
+    position: absolute;
+    float: left;
+    color: white;
+    /* padding: 0 15px; */
+    /* left: -20px; */
+    text-align: center;
+    top: 20px;
+    block-size: auto;
+}
+
+.name h1 {
+    font-size: 45px;
+    margin-block-start: 12px;
+    margin-block-end: 8px;
+    padding: 0 10px;
+}
+
+nav {
+    
+    
+}
+
+nav ul {
+    position: absolute;
+    list-style: none;
+    /* margin: 50px 50px -20px 0; */
+    bottom: 10px;
+    right: 30px;
+    
+    
+}
+
+nav ul li {
+    display: inline;
+    flex-direction: row;
+    margin: 0 20px;
+    /* float: right; */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul li a:link {
+    text-decoration: none;
+}
+
+.about-me {
+    clear: both;
+    width: 100%;
+}
+
+.title-bar {
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-start;
+   flex-direction: row;
+   margin-top: 50px;
+  
+}
+
+.title{
+    width: 100%;
+    /* background-color: wheat; */
+    margin-bottom: 5px;
+    border-bottom: 2px solid black;
+    
+}
+.title h1 {
+    margin-bottom: 5px;
+}
+
+.title-space {
+    width: 90%;
+    height: 20px;
+    
+}
+
+.about-me-detail {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: row;
+
+}
+
+.about-me-text {
+    width: 80%;
+    height: 100%;
+    float: left;
+    background-color: burlywood;
+}
+
+.about-me-image {
+    width: 20%;
+    height: 100%;
+    background-color: cornflowerblue;
+    /* height: 50px; */
+}
+
+.about-me-image img {
+    justify-content: space-around;
+    padding: 20px 50px;
+    /* margin-left: 40px; */
+}
+
+.projects {
+    clear: both;
+}
+
+.project-cards {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.project-cards h2 {
+    text-align: center;
+}
+
+.smartphone-app {
+    background-image: url(https://images.freeimages.com/images/large-previews/c8f/computer-1550275.jpg);
+    min-height: 100%;
+    width: 50%;
+    
+}
+
+.web-application {
+    width: 50%;
+}
+
+.website {
+    width: 50%;
+}
+
+.database{
+    width: 50%;
+}
+
+footer ul {
+    list-style: none;
+    margin: 20px;
+    
+    
+    
+}
+
+.contact-list {
+    display: table;
+    margin: 0 auto;
+}
+
+footer ul li {
+    display: inline;
+    flex-direction: row; 
+    margin: 0 20px;
+    /* float: center; */
+    font-size: 15px;
+    font-weight: bold;
+    /* min-width: 20%; */
+}
+
+footer ul li a:link {
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 0 80px;
+    font-size:18px;
+    
+}
