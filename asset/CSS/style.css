@@ -172,41 +172,52 @@ footer ul li a:link {
     padding: 0 80px;
 }
 
-/* @media screen and (max-width: 992px) {
-    header{
-        display: flex;
-        position: relative;
-        background-color: rgb(91, 101, 150);
-        width: 100%;
-        padding: 15px 0 20px 0;
-        height: 150px;
-        margin-top: 20px;
-       
-    }
-    
-    .name {
-        background-color: brown;
-        position: absolute;
-        color: white;
-    }
-    
-    .name h1 {
-
+@media screen and (max-width: 992px) {
+       .about-me-detail{
         flex-direction: column;
-       justify-content: center;
-        /* font-size: 45px;
-        margin-block-start: 12px;
-        margin-block-end: 8px;
-        padding: 0 10px; */
+        align-items: center;
+       }
 }
 
-@media screen and (max-width: 992px) {
-    header nav ul li {
-        /* display: inline;
-        flex-direction: column; */
-        margin: 0 10px;
-        /* float: right; */
-        /* font-size: 24px; 
-        color:white;
-        font-weight: bold; */
-} 
+    @media screen and (max-width: 835px) {
+        header{
+            flex-direction: column;
+            display: flex;
+            position: relative;
+            background-color: rgb(91, 101, 150);
+            width: 100%;
+            padding: 15px 0 20px 0;
+            height: 120px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+
+        .name h1 {
+            font-size: 30px;
+            margin-block-start: 4px;
+            margin-block-end: 2px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+            font-size: 18px; 
+            font-weight: bold;
+        }
+
+        .projects h2 {
+            font-size: 20px;
+        }
+
+        ul {
+            flex-direction: column;
+            
+            align-self: center;
+        }
+
+        footer ul li {
+            align-content: center;
+            align-self: center;
+            font-size: 12px;
+        }
+    }
