@@ -8,7 +8,6 @@ body {
 header{
     display: flex;
     position: relative;
-    /* background-image: url(../image/5578.jpn); */
     background-color: rgb(91, 101, 150);
     width: 100%;
     padding: 15px 0 20px 0;
@@ -65,7 +64,6 @@ nav ul li a:link {
 
 .title {
     width: 100%;
-    /* background-color: wheat; */
     margin-bottom: 5px;
     border-bottom: 2px solid  rgba(8, 8, 167, 0.63);
 }
@@ -85,9 +83,7 @@ nav ul li a:link {
 
 .about-me-detail {
     display: flex;
-    align-items: flex-end;
-    /* background-color: beige; */
-
+    align-items:flex-start;
 }
 
 .about-me-text {
@@ -99,24 +95,12 @@ nav ul li a:link {
 
 .about-me-detail.about-me-image {
     position: absolute;
-    /* right: 10px; */
-    /* top: auto; */
     width: 20%;
-    /* height: 100%; */
-    /* background-color: cornflowerblue; */
 }
 
 .about-me-image img {
-    margin-bottom: 20px;
-    /* padding-left: 50px; */
-     /* margin: 0 20px 75px 20px; */
-    /* padding: auto; */
-}
-   
-
-
-.projects {
-
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .project-cards {
@@ -133,17 +117,22 @@ flex-wrap: wrap;
     background-image: url(https://via.placeholder.com/150/);
     height: 200px;
     width: 40%;
-    /* border: 2px solid gray; */
+    border: 2px solid whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 20px auto;
     
+}
+
+.project-cards a:link{
+    text-decoration: none;
+    /* color: black; */
 }
 
 .web-application {
     background-image: url(https://via.placeholder.com/150/);
     height: 200px;
     width: 40%;
-    /* border: 2px solid gray; */
+    border: 2px solid whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 20px auto;
 }
@@ -152,7 +141,7 @@ flex-wrap: wrap;
     background-image: url(https://via.placeholder.com/150/);
     height: 200px;
     width: 40%;
-    /* border: 2px solid gray; */
+    border: 2px solid whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 20px auto;
 }
@@ -161,7 +150,7 @@ flex-wrap: wrap;
     background-image: url(https://via.placeholder.com/150/);
     height: 200px;
     width: 40%;
-    /* border: 2px solid gray; */
+    border: 2px solid whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 20px auto;
 }
@@ -189,26 +178,41 @@ footer ul li a:link {
     padding: 0 80px;
 }
 
-@media screen and (max-width: 992px) {
-    header {
-        text-align: center;
-        flex-direction: column;
+/* @media screen and (max-width: 992px) {
+    header{
+        display: flex;
+        position: relative;
+        background-color: rgb(91, 101, 150);
+        width: 100%;
+        padding: 15px 0 20px 0;
+        height: 150px;
+        margin-top: 20px;
+       
     }
-
-    nav ul {
+    
+    .name {
+        background-color: brown;
         position: absolute;
-        list-style: none;
-        justify-content: center;
+        color: white;
     }
+    
+    .name h1 {
+
+        flex-direction: column;
+       justify-content: center;
+        /* font-size: 45px;
+        margin-block-start: 12px;
+        margin-block-end: 8px;
+        padding: 0 10px; */
 }
 
-@media screen and (max-width: 768px) {
-    nav ul li {
-        display: inline;
-        flex-direction: column;
-        margin: 0 20px;
+@media screen and (max-width: 992px) {
+    header nav ul li {
+        /* display: inline;
+        flex-direction: column; */
+        margin: 0 10px;
         /* float: right; */
-        font-size: 24px; 
+        /* font-size: 24px; 
         color:white;
-        font-weight: bold;
-}
+        font-weight: bold; */
+} 
