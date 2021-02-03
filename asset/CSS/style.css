@@ -2,6 +2,7 @@ body {
     margin: auto;
     font-family:Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5;
+    width: 90%;
 }
 
 header{
@@ -11,7 +12,7 @@ header{
     background-color: rgb(91, 101, 150);
     width: 100%;
     padding: 15px 0 20px 0;
-    height: 180px;
+    height: 150px;
     margin-top: 20px;
    
 }
@@ -73,6 +74,7 @@ nav ul li a:link {
     margin-bottom: 2px;
     color: rgba(8, 8, 167, 0.63);
     font-size: 30px;
+    text-align: center;
 }
 
 .title-space {
@@ -89,7 +91,7 @@ nav ul li a:link {
 }
 
 .about-me-text {
-    width: 80%;
+    width: 75%;
     height: 100%;
     padding: 10px;
     margin-left: 40px;
@@ -98,12 +100,12 @@ nav ul li a:link {
 .about-me-image {
     width: 20%;
     height: 100%;
-    /* background-color: cornflowerblue; */
+    background-color: cornflowerblue;
 }
 
 .about-me-image img {
-    margin: 0 20px 75px 20px;
-    padding: 20px 50px;
+    /* margin: 0 20px 75px 20px; */
+    /* padding: 20px 50px; */
 }
 
 .projects {
@@ -117,6 +119,7 @@ flex-wrap: wrap;
 
 .project-cards h2 {
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .smartphone-app {
@@ -171,6 +174,7 @@ footer ul li {
     flex-direction: row; 
     font-size: 18px;
     font-weight: bold;
+    flex-shrink: inherit;
 }
 
 footer ul li a:link {
