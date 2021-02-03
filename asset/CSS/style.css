@@ -1,17 +1,16 @@
 body {
-    width: 96%;
     margin: auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
 }
 
 header{
     display: flex;
     position: relative;
-    background-color: beige;
+    /* background-image: url(../image/5578.jpn); */
+    background-color: rgb(91, 101, 150);
     width: 100%;
-    justify-content: flex-start;
-    flex-direction: row;
     padding: 15px 0 20px 0;
-    justify-content: space-between;
     height: 180px;
     margin-top: 20px;
    
@@ -20,13 +19,7 @@ header{
 .name {
     background-color: brown;
     position: absolute;
-    float: left;
     color: white;
-    /* padding: 0 15px; */
-    /* left: -20px; */
-    text-align: center;
-    top: 20px;
-    block-size: auto;
 }
 
 .name h1 {
@@ -43,8 +36,6 @@ nav {
 
 nav ul {
     position: absolute;
-    list-style: none;
-    /* margin: 50px 50px -20px 0; */
     bottom: 10px;
     right: 30px;
     
@@ -53,40 +44,35 @@ nav ul {
 
 nav ul li {
     display: inline;
-    flex-direction: row;
     margin: 0 20px;
-    /* float: right; */
-    font-size: 24px;
+    font-size: 24px; 
     font-weight: bold;
 }
+
+nav ul li a {
+     color:white;
+}
+
 
 nav ul li a:link {
     text-decoration: none;
 }
 
 .about-me {
-    clear: both;
     width: 100%;
 }
 
-.title-bar {
-   display: flex;
-   align-items: flex-end;
-   justify-content: flex-start;
-   flex-direction: row;
-   margin-top: 50px;
-  
-}
-
-.title{
+.title {
     width: 100%;
     /* background-color: wheat; */
     margin-bottom: 5px;
-    border-bottom: 2px solid black;
-    
+    border-bottom: 2px solid  rgba(8, 8, 167, 0.63);
 }
+
 .title h1 {
-    margin-bottom: 5px;
+    margin-bottom: 2px;
+    color: rgba(8, 8, 167, 0.63);
+    font-size: 30px;
 }
 
 .title-space {
@@ -98,40 +84,34 @@ nav ul li a:link {
 .about-me-detail {
     display: flex;
     align-items: flex-end;
-    justify-content: flex-start;
-    flex-direction: row;
+    /* background-color: beige; */
 
 }
 
 .about-me-text {
     width: 80%;
     height: 100%;
-    float: left;
-    background-color: burlywood;
+    padding: 10px;
+    margin-left: 40px;
 }
 
 .about-me-image {
     width: 20%;
     height: 100%;
-    background-color: cornflowerblue;
-    /* height: 50px; */
+    /* background-color: cornflowerblue; */
 }
 
 .about-me-image img {
-    justify-content: space-around;
+    margin: 0 20px 75px 20px;
     padding: 20px 50px;
-    /* margin-left: 40px; */
 }
 
 .projects {
-    clear: both;
+
 }
 
 .project-cards {
 display: flex;
-align-items: center;
-justify-content: space-between;
-flex-direction: row;
 flex-wrap: wrap;
 }
 
@@ -140,30 +120,45 @@ flex-wrap: wrap;
 }
 
 .smartphone-app {
-    background-image: url(https://images.freeimages.com/images/large-previews/c8f/computer-1550275.jpg);
-    min-height: 100%;
-    width: 50%;
+    background-image: url(https://via.placeholder.com/150/);
+    height: 200px;
+    width: 40%;
+    /* border: 2px solid gray; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
     
 }
 
 .web-application {
-    width: 50%;
+    background-image: url(https://via.placeholder.com/150/);
+    height: 200px;
+    width: 40%;
+    /* border: 2px solid gray; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
 }
 
 .website {
-    width: 50%;
+    background-image: url(https://via.placeholder.com/150/);
+    height: 200px;
+    width: 40%;
+    /* border: 2px solid gray; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
 }
 
 .database{
-    width: 50%;
+    background-image: url(https://via.placeholder.com/150/);
+    height: 200px;
+    width: 40%;
+    /* border: 2px solid gray; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
 }
 
 footer ul {
     list-style: none;
     margin: 20px;
-    
-    
-    
 }
 
 .contact-list {
@@ -174,17 +169,35 @@ footer ul {
 footer ul li {
     display: inline;
     flex-direction: row; 
-    margin: 0 20px;
-    /* float: center; */
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
-    /* min-width: 20%; */
 }
 
 footer ul li a:link {
     text-decoration: none;
-    justify-content: space-between;
     padding: 0 80px;
-    font-size:18px;
-    
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    nav ul {
+        position: absolute;
+        list-style: none;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: inline;
+        flex-direction: column;
+        margin: 0 20px;
+        /* float: right; */
+        font-size: 24px; 
+        color:white;
+        font-weight: bold;
 }
