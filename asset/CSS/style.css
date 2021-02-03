@@ -11,8 +11,9 @@ header{
     background-color: rgb(91, 101, 150);
     width: 100%;
     padding: 15px 0 20px 0;
-    height: 150px;
+    height: 120px;
     margin-top: 20px;
+    margin-bottom: 50px;
    
 }
 
@@ -24,22 +25,15 @@ header{
 
 .name h1 {
     font-size: 45px;
-    margin-block-start: 12px;
-    margin-block-end: 8px;
+    margin-block-start: 4px;
+    margin-block-end: 2px;
     padding: 0 10px;
-}
-
-nav {
-    
-    
 }
 
 nav ul {
     position: absolute;
-    bottom: 10px;
-    right: 30px;
-    
-    
+    bottom: -3px;
+    right: 30px;   
 }
 
 nav ul li {
