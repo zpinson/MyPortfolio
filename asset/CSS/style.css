@@ -8,7 +8,8 @@ body {
 header{
     display: flex;
     position: relative;
-    background-color: rgb(91, 101, 150);
+    /* background-color: rgb(91, 101, 150); */
+    background-image: url(./images/5578.jpg);
     width: 100%;
     padding: 15px 0 20px 0;
     height: 120px;
@@ -18,9 +19,10 @@ header{
 }
 
 .name {
-    background-color: brown;
+    /* background-color: brown; */
     position: absolute;
-    color: white;
+    color:beige;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .name h1 {
@@ -44,7 +46,8 @@ nav ul li {
 }
 
 nav ul li a {
-     color:white;
+    color:beige;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 
@@ -93,6 +96,7 @@ nav ul li a:link {
 }
 
 .about-me-image img {
+    height: 200px;
     margin-top: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -107,46 +111,82 @@ flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
-.smartphone-app {
-    background-image: url(https://via.placeholder.com/150/);
+.project-cards a:link{
+    text-decoration: none;
+    /* color: black; */
+}
+
+h2 {
+    color:beige;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: 70px;
+}
+.code-refactor {
+    background-image: url(./images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px ;
+    height: 200px;
+    width: 40%;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
+}
+
+.portfolio {
+    background-image: url(./images/halgatewood-com-tZc3vjPCk-Q-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px ;
+    height: 200px;
+    width: 40%;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
+}
+
+
+
+.password {
+    background-image: url(./images/pexels-pixabay-60504.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px ;
+    height: 200px;
+    width: 40%;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
+}
+
+.quiz {
+    background-image: url(./images/nguyen-dang-hoang-nhu-cbEvoHbJnIE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px ;
+    height: 200px;
+    width: 40%;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
+}
+.day-planner {
+    background-image: url(./images/pexels-bich-tran-760710.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px ;
+    height: 200px;
+    width: 40%;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
+}
+
+.weather {
+    background-image: url(./images/yue-su-vXOafvdaiHQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px ;
     height: 200px;
     width: 40%;
     border: 2px solid whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 20px auto;
     
-}
-
-.project-cards a:link{
-    text-decoration: none;
-    /* color: black; */
-}
-
-.web-application {
-    background-image: url(https://via.placeholder.com/150/);
-    height: 200px;
-    width: 40%;
-    border: 2px solid whitesmoke;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 20px auto;
-}
-
-.website {
-    background-image: url(https://via.placeholder.com/150/);
-    height: 200px;
-    width: 40%;
-    border: 2px solid whitesmoke;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 20px auto;
-}
-
-.database{
-    background-image: url(https://via.placeholder.com/150/);
-    height: 200px;
-    width: 40%;
-    border: 2px solid whitesmoke;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 20px auto;
 }
 
 footer ul {
