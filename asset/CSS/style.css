@@ -189,6 +189,84 @@ h2 {
     
 }
 
+.concert-api {
+    background-image: url(./images/actionvance-eXVd7gDPO9A-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px ;
+    height: 200px;
+    width: 40%;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
+    
+}
+
+.readme {
+    background-image: url(./images/iconfinder_273_Readme_logo_4375055.png);
+    background-repeat: no-repeat;
+    background-size: 600px ;
+    height: 200px;
+    width: 40%;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
+    
+}
+
+.team {
+    background-image: url(./images/Capture1.png);
+    background-repeat: no-repeat;
+    background-size: 600px ;
+    height: 200px;
+    width: 40%;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
+    
+}
+
+.note {
+    background-image: url(./images/photo-1517842645767-c639042777db_crop.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px ;
+    height: 200px;
+    width: 40%;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
+    
+}
+
+.employee {
+    background-image: url(./images/pexels-sora-shimazaki-5668888.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px ;
+    height: 200px;
+    width: 40%;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
+    
+}
+
+.ecommerce{
+    background-image: url(./images/pexels-nataliya-vaitkevich-6214479.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px ;
+    height: 200px;
+    width: 40%;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
+    
+}
+
+
+
+
+
+
+
 footer ul {
     list-style: none;
     margin: 20px;
